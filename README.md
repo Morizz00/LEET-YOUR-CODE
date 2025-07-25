@@ -1,16 +1,16 @@
-# 🚀 LEET-YOUR-CODE
+#  LEET-YOUR-CODE
 
 A powerful CLI tool that generates clean, well-commented Go solutions for LeetCode problems using AI. Get instant, production-ready code with detailed explanations for any LeetCode problem!
 
-## ✨ Features
+##  Features
 
-- 🤖 **AI-Powered Solutions**: Uses OpenRouter API to generate optimal Go solutions
-- 📝 **Detailed Comments**: Each line of code comes with clear explanations
-- 📁 **Organized Output**: Creates separate directories and files for each problem
-- ⚡ **Fast & Efficient**: Get solutions in seconds
-- 🎯 **CLI-First**: Simple command-line interface for developers
+-  **AI-Powered Solutions**: Uses OpenRouter API to generate optimal Go solutions
+-  **Detailed Comments**: Each line of code comes with clear explanations
+-  **Organized Output**: Creates separate directories and files for each problem
+-  **Fast & Efficient**: Get solutions in seconds
+-  **CLI-First**: Simple command-line interface for developers
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have:
 
@@ -18,7 +18,7 @@ Before you begin, ensure you have:
 - **OpenRouter API Key** (free tier available)
 - **Git** for cloning the repository
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -42,14 +42,14 @@ Add your OpenRouter API key to the `.env` file:
 OPENROUTER_API_KEY=your_api_key_here
 ```
 
-**🔑 Getting Your API Key:**
+** Getting Your API Key:**
 1. Visit [OpenRouter.ai](https://openrouter.ai/)
 2. Sign up for a free account
 3. Navigate to API Keys section
 4. Generate a new API key
 5. Copy and paste it into your `.env` file
 
-## 🚀 Usage
+##  Usage
 
 ### Starting the Tool
 From the project root directory, run:
@@ -93,7 +93,7 @@ dsa Add Two Numbers
 - Press `Ctrl+C` or close the terminal
 - Type any non-dsa command to get prompted again
 
-### 📁 Output Structure
+###  Output Structure
 
 When you run `dsa Two Sum`, the tool creates:
 ```
@@ -107,7 +107,7 @@ The generated file contains:
 - Time and space complexity explanations
 - Example usage
 
-### 💡 Example Session
+###  Example Session
 
 ```bash
 $ go run cmd/main.go
@@ -136,19 +136,19 @@ After this session, you'll have:
   └── 📄 binary_search.go
 ```
 
-## 🎯 Supported Problem Types
+##  Supported Problem Types
 
 The tool can generate solutions for various LeetCode categories:
 
-- **🔢 Array & String Problems**: Two Sum, 3Sum, Valid Anagram
-- **🔗 Linked Lists**: Merge Lists, Reverse Linked List, Cycle Detection
-- **🌳 Trees & Graphs**: Binary Tree Traversal, Path Sum, DFS/BFS
-- **📚 Stack & Queue**: Valid Parentheses, Min Stack, Sliding Window
-- **🔍 Search & Sort**: Binary Search, Quick Sort, Merge Sort
-- **💡 Dynamic Programming**: Fibonacci, Climbing Stairs, Coin Change
-- **🧮 Math & Logic**: Palindrome Number, Roman Numerals
+- ** Array & String Problems**: Two Sum, 3Sum, Valid Anagram
+- ** Linked Lists**: Merge Lists, Reverse Linked List, Cycle Detection
+- ** Trees & Graphs**: Binary Tree Traversal, Path Sum, DFS/BFS
+- ** Stack & Queue**: Valid Parentheses, Min Stack, Sliding Window
+- ** Search & Sort**: Binary Search, Quick Sort, Merge Sort
+- ** Dynamic Programming**: Fibonacci, Climbing Stairs, Coin Change
+- ** Math & Logic**: Palindrome Number, Roman Numerals
 
-## ⚠️ Important Notes
+## ⚠ Important Notes
 
 ### Input Format
 - Always start commands with `dsa`
@@ -165,7 +165,7 @@ The tool can generate solutions for various LeetCode categories:
 - Consider upgrading for heavy usage
 - Tool includes automatic error handling for rate limits
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -196,7 +196,7 @@ go run cmd/main.go
 - Use official LeetCode problem titles
 - Try variations like "Two Sum" vs "2Sum"
 
-## 🛡️ Development
+##  Development
 
 ### Project Structure
 ```
@@ -229,25 +229,25 @@ go build -o leet-helper cmd/main.go
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🌟 Support
+##  Support
 
 If you find this tool helpful:
-- ⭐ Star the repository
-- 🐛 Report bugs in Issues
-- 💡 Suggest features
-- 🤝 Contribute code
+-  Star the repository
+-  Report bugs in Issues
+-  Suggest features
+-  Contribute code
 
-## 📞 Contact
+##  Contact
 
 - **GitHub**: [@Morizz00](https://github.com/Morizz00)
 - **Issues**: [Report here](https://github.com/Morizz00/LEET-YOUR-CODE/issues)
 
 ---
 
-**Happy Coding! 🎉**
+**Happy Coding! **
 
 *Turn any LeetCode problem into clean, commented Go code in seconds!*
